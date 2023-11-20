@@ -13,7 +13,7 @@ dependencies = ["chialisp_loader>=0.1.0"]
 requires = [
     "pytoml>=0.1",
     "enscons",
-    "chialisp_builder>=0.1.0",
+    "chialisp_builder @ git+https://github.com/quexington/chialisp_builder@3b1b42e48ecc9e72093368a5725c3ed30c2b5df1#egg=chialisp_builder",
     "chialisp_stdlib>=0.1.0",
     "clvm_rs",
 ]
